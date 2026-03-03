@@ -33,11 +33,23 @@ header {
 
 .hero {
     text-align: center;
-    padding: 40px 20px;
+    margin: 20px 0;
 }
 
-.hero h1 {
-    color: #00e0ff;
+.hero-title {
+    font-size: 36px;
+    font-weight: 900;
+    background: linear-gradient(90deg, #00ff88, #00e0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #00ff88;
+    margin-top: 5px;
+    font-style: italic;
 }
 
 .controls {
@@ -95,24 +107,4 @@ select {
 
 .whatsapp-btn:hover {
     background-color: #00e0ff;
-}
-.hero {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.hero-title {
-    font-size: 36px;
-    font-weight: 900;
-    background: linear-gradient(90deg, #00ff88, #00e0ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 0;
-}
-
-.hero-subtitle {
-    font-size: 18px;
-    color: #00ff88;
-    margin-top: 5px;
-    font-style: italic;
 }
