@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'CurlzMT';
+   src: url('CurlzMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -30,15 +36,14 @@ header {
     border-radius: 5px;
     border: none;
 }.hero-title {
+    font-family: 'CurlzMT', cursive;
     font-size: 42px;
-    font-weight: 900;
-    font-family: 'Arial Black', sans-serif;
-    background: linear-gradient(45deg, #00ff88, #00e0ff);
+    font-weight: normal;
+    background: linear-gradient(90deg, #00ff88, #00e0ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
     text-align: center;
-    transition: all 0.3s ease;
 }
 
 .hero-title:hover {
