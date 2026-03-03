@@ -1,0 +1,44 @@
+Bu depo ÇETE sitesi içindir.
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÇETE | 3D Baskı</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo" onclick="goHome()">ÇETE</div>
+    <input type="text" id="searchInput" placeholder="Ürün ara..." onkeyup="searchProducts()">
+</header>
+
+<section class="hero">
+    <h1>Imagine. Create.</h1>
+    <p>Kişiye özel 3D baskı çözümleri</p>
+</section>
+
+<section class="controls">
+    <select id="categoryFilter" onchange="filterProducts()">
+        <option value="all">Tüm Kategoriler</option>
+        <option value="anahtarlik">Anahtarlık</option>
+        <option value="figur">Figür</option>
+        <option value="dekor">Dekor</option>
+    </select>
+
+    <select id="sortOption" onchange="sortProducts()">
+        <option value="default">Sırala</option>
+        <option value="priceLow">Fiyat (Artan)</option>
+        <option value="priceHigh">Fiyat (Azalan)</option>
+    </select>
+</section>
+
+<section id="productList" class="products"></section>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
