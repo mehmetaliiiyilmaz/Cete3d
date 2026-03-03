@@ -39,7 +39,7 @@ header {
     font-family: 'CurlzMT', cursive;
     font-size: 42px;
     font-weight: normal;
-    background: linear-gradient(90deg, #00ff88, #00e0ff);
+    background: linear-gradient(45deg, #00ff88, #00e0ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
